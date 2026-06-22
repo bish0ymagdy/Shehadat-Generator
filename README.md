@@ -87,8 +87,3 @@ For the script to parse data properly, your workspace and source directories sho
 * **Threaded Execution**: Prevents the Tkinter UI from freezing during heavy-duty PDF processing and merging.
 * **Failing Flag Mechanics**: The application evaluates course headers. If a core spiritual column containing words like `"طقس"` or `"قبطي"` drops under 50% of the total allocated max value, it flags an explicit execution mark `X` meaning an update/re-test evaluation is required.
 * **Stream Redirection**: Both `sys.stdout` and `sys.stderr` are bound to a custom `TextRedirector` class, forwarding terminal logs directly into the GUI's green-on-black scrolling execution console.
-
----
-
-## 📝 License
-This project is open-source and available under the [MIT License](LICENSE).
